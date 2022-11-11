@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Patching @cloudflare/next-on-pages
+
+https://github.com/cloudflare/next-on-pages/issues/8
+
+
+
 ## Getting Started
 
 First, run the development server:
