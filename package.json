@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "cloudflare:build": "node node_modules/@cloudflare/next-on-pages/bin/index.js --experimental-minify",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "dev1": "node node_modules/@cloudflare/next-on-pages/bin/index.js --watch",
+    "dev2": "wrangler pages dev .vercel/output/static --compatibility-flags=streams_enable_constructors"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^0.1.0",

@@ -8,7 +8,9 @@ export const config = {
 
 export default async function (req: NextRequest) {
   return new Response(
-    JSON.stringify({ name: 'John Doe' }),
+    JSON.stringify({
+      name: process.env.NEXT_RUNTIME,
+    }),
     {
       status: 200,
       headers: {
